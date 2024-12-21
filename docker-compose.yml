@@ -1,8 +1,7 @@
-version: '3.4'
-
 services:
   minibot:
     image: minibot
+    restart: always
     build:
       context: .
       dockerfile: ./Dockerfile
